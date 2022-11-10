@@ -54,7 +54,7 @@ public class ViewFrame extends JFrame implements Observer
 //                label1.setText("lmao you died, noob");
 //            }
 //        });
-
+//hey hey vanalles in comments om github te testen
 
         this.setVisible(true);
 
