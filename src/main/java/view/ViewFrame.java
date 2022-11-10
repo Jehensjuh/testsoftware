@@ -42,18 +42,18 @@ public class ViewFrame extends JFrame implements Observer
         this.add(panel);
         this.add(buttons);
 
-        //own fun
-        JButton die = new JButton("Die");
-        JLabel label1 = new JLabel();
-        this.add(die);
-        this.add(label1);
-
-        die.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                label1.setText("lmao you died, noob");
-            }
-        });
+//        //own fun
+//        JButton die = new JButton("Die");
+//        JLabel label1 = new JLabel();
+//        this.add(die);
+//        this.add(label1);
+//
+//        die.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                label1.setText("lmao you died, noob");
+//            }
+//        });
 
 
         this.setVisible(true);
